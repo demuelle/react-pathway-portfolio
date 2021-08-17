@@ -14,17 +14,17 @@ function Footer() {
           <Nav className="justify-content-center footer" activeKey="/home">
             <Nav.Item style={{width:"100px"}}>
               <Nav.Link target="_blank" href="https://github.com/demuelle">
-                <Image src="/GitHub_Logo.png" fluid />
+                <Image src={require(`../../assets/logos/GitHub_Logo.png`).default} alt="GitHub" fluid />
               </Nav.Link>
             </Nav.Item>
             <Nav.Item style={{width:"100px"}}>
               <Nav.Link target="_blank" href="https://www.linkedin.com/in/dan-mueller-0a73182/">
-                <Image src="/LI-Logo.png" fluid />
+                <Image src={require(`../../assets/logos/LI-Logo.png`).default} alt="LinkedIn" fluid />
               </Nav.Link>
             </Nav.Item>
             <Nav.Item style={{width:"50px"}}>
               <Nav.Link target="_blank" href="https://twitter.com/demuelle">
-                <Image src="/2021 Twitter logo - blue.png" fluid />
+                <Image src={require(`../../assets/logos/2021 Twitter logo - blue.png`).default} alt="Twitter" fluid />
               </Nav.Link>
             </Nav.Item>
           </Nav>
