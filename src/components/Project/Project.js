@@ -45,7 +45,7 @@ function ProjectList() {
       <Row>
         {projects.map((p) => {
           return (
-            <Col xs={12} sm={6} md={4} className="mt-2 mb-4 pb-4">
+            <Col xs={12} sm={6} md={4} className="mb-3">
               <Card >
                 <Card.Img variant="top" src={require(`../../assets/project-screenshots/${p.image}`).default} alt={p.title} />
                 <Card.Body>
